@@ -2,34 +2,61 @@
 
 // 7 types: String,Number,Boolean,Null,undefined,Symbol,BigInt
 // js is dynamically typed
-const score=100;
-const scoreVal=200.3
+// const score=100;
+// const scoreVal=200.3
 
-const isLoggedIn=false
-const outsideTemp=null;
-let useEmail;
+// const isLoggedIn=false
+// const outsideTemp=null;
+// let useEmail;
 
-const id=Symbol('123')
-const anotherId=Symbol('123');
+// const id=Symbol('123')
+// const anotherId=Symbol('123');
 
-console.log(id===anotherId);
+// console.log(id===anotherId);
 
 //const bigNumber=12345678923456
 
 //console.log(bigNumber);
-//Reference(Non primitive)
+
+
+//---->>>Reference(Non primitive)
 
 //Array,Objects,Functions,
 
-const heros=["vikas","vicky"]
-let myObj={
-    name:"viky",
-    age:22,
+// const heros=["vikas","vicky"]
+// let myObj={
+//     name:"viky",
+//     age:22,
+// }
+
+// const myFunction=function(){
+//     console.log("hello,world");
+// }
+// console.log(typeof scoreVal);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+
+//---------------------------------------------------------------------
+
+//  stack (Primitive),heap (NonPrimitive)
+
+let Myname="vikas"
+
+let anothername=Myname;
+anothername="CR"
+console.log(Myname);
+
+console.log(anothername);
+
+
+let user1={
+    email:"vikas@email.com",
+    upi:"vikas@ybl"
 }
 
-const myFunction=function(){
-    console.log("hello,world");
-}
-console.log(typeof scoreVal);
-console.log(typeof myFunction);
-console.log(typeof heros);
+let user2=user1;
+console.log(user1.email);
+user2.email="vicky@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
