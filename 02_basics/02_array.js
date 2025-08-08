@@ -21,7 +21,7 @@ const allcricketers=[...cricketers, ...rcb];
 const another_arr=[1,2,3,[4,5,6], 7, [6,7,[4,5]]];
 const real_another_arr=another_arr.flat(Infinity);
 console.log(real_another_arr);
-
+ 
 
 console.log(Array.isArray("vikas"))
 console.log(Array.from("vikas"));
