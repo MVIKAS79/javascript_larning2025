@@ -42,7 +42,7 @@ function addone(num) {
 }
 
 
-addTwo(5);---->it will give a error
+//addTwo(5);---->it will give a error
 const addTwo=function (num) {
    return  num+2;
 }
