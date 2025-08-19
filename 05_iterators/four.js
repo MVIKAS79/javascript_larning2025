@@ -26,4 +26,4 @@
 
 // for (const key in map) {
 //     console,log(key);
-// }
+// }->> it will not work for map
