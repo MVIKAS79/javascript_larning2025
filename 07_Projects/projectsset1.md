@@ -3,9 +3,9 @@
 ## project link
 [Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
-# Solution Code
+# Solution Codes
 
-## Project 1
+## Project 1 solution
 
 ```javascript
 console.log("project_01")
